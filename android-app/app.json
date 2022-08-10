@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "cctv-notifications-app",
+    "slug": "cctv-notifications-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "pl.dawidstachowiak.cctv_notifications_app",
+      "googleServicesFile": "./android/app/google-services.json"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-firebase/app"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
